@@ -1,0 +1,32 @@
+{
+  "name": "js-hw-13-image-finder-infinityScroll-dots",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://AlexandraRomanova.github.io/js-hw-13-image-finder-infinityScroll-dots",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /js-hw-13-image-finder-infinityScroll-dots/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandraRomanova/js-hw-13-image-finder-infinityScroll-dots.git"
+  },
+  "keywords": [],
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "@pnotify/core": "^5.2.0",
+    "basiclightbox": "^5.0.4"
+  }
+}
