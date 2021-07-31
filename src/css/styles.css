@@ -103,10 +103,6 @@ body {
   margin-bottom: 8px;
 }
 
-.load-more {
-  display: none;
-}
-
 /* Dots */
 .dot-flashing {
   position: relative;
@@ -161,4 +157,8 @@ body {
   100% {
     background-color: #ebe6ff;
   }
+}
+
+.load-more {
+  display: none;
 }

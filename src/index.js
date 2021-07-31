@@ -43,6 +43,7 @@ function onSearch(e) {
 function onLoadMore() {
     newApiService.fetchImages().then(data => {
         if (data.length === 0) {
+            refs.dots.classList.add('load-more');
             return onFetchError();
         }
         addImageMarkup(data);
